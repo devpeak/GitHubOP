@@ -28,32 +28,37 @@
      <li>Creating pull request</li>
     </ol>
 
-    Some Useful commands:<br>
+    Some Useful commands:<br><br>
+
+
     To unstage a file
     <pre>git restore --staged file-name</pre>
 
-    <br>
+    <br><br>
     To make a new branch<br>
     <pre>
     git branch branch-name
     git checkout branch-name
-    </pre>
+    </pre><br><br>
     Cloning the forked project 
     <pre>
         git clone url
     </pre>
-    log
+    <br><br>
     <pre>
         git log
     </pre>
+    <br><br>
     delete commits
     <pre>
         git reset hashkey
     </pre>
+    <br><br>
     forcing to remote direcory
     <pre>
         git push origin branch-name -f
     </pre>
+    <br><br>
     Upstream and adding to local<pre>
         git remote add upstream org-project-link
     </pre>
