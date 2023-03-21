@@ -29,39 +29,36 @@
     </ol>
 
     Some Useful commands:<br><br>
+    To unstage a file<br>
+    <em>git restore --staged file-name</em>
 
-
-    To unstage a file
-    <pre>git restore --staged file-name</pre>
-
-    <br><br>
     To make a new branch<br>
-    <pre>
+    <em>
     git branch branch-name
     git checkout branch-name
-    </pre><br><br>
-    Cloning the forked project 
-    <pre>
+    </em><br><br>
+    Cloning the forked project <br>
+    <em>
         git clone url
-    </pre>
-    <br><br>
-    <pre>
+    </em>
+    log
+    <em>
         git log
-    </pre>
+    </em>
     <br><br>
-    delete commits
-    <pre>
+    delete commits <br>
+    <em>
         git reset hashkey
-    </pre>
+    </em>
     <br><br>
     forcing to remote direcory
-    <pre>
+    <em>
         git push origin branch-name -f
-    </pre>
-    <br><br>
-    Upstream and adding to local<pre>
+    </em>
+   
+    Upstream and adding to local<em>
         git remote add upstream org-project-link
-    </pre>
+    </em>
 
 </body>
 </html>
