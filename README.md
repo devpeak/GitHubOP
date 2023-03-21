@@ -27,38 +27,35 @@
      <li>Why not to commit on main branch</li>
      <li>Creating pull request</li>
     </ol>
-
-    Some Useful commands:<br><br>
-    To unstage a file<br>
-    <em>git restore --staged file-name</em>
-
-    To make a new branch<br>
-    <em>
+   
+    Some Useful commands:
+    1. To unstage a file
+    git restore --staged file-name
+    
+    2. To make a new branch
+   
     git branch branch-name
     git checkout branch-name
-    </em><br><br>
-    Cloning the forked project <br>
-    <em>
+    
+    3. Cloning the forked project
+    
         git clone url
-    </em>
-    log
-    <em>
+    
+    4. log
+    
         git log
-    </em>
-    <br><br>
-    delete commits <br>
-    <em>
-        git reset hashkey
-    </em>
-    <br><br>
-    forcing to remote direcory
-    <em>
-        git push origin branch-name -f
-    </em>
-   
-    Upstream and adding to local<em>
-        git remote add upstream org-project-link
-    </em>
 
+    5. delete commits <br>
+    
+        git reset hashkey
+
+    6. forcing to remote direcory
+    
+        git push origin branch-name -f
+    
+   
+    7. Upstream and adding to local<em>
+        git remote add upstream org-project-link
+   
 </body>
 </html>
